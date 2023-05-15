@@ -28,7 +28,7 @@ localStorage.setItem("tema" , tema)
     //esse useEfect vai ser ativado toda vez que mudar o valor do tema
     //como o valor do tema alterado ele vai passar por uma verificação para ver o tema que estava ante se o tema autal for dark exclua o tema antigo light caso contario excula o dark
 
-    //pos a verficação do tema antigo ele vai adicionar na class do body p tema novo e esse tema vai ser armazenado no nosso localstorage
+    //pos a verficação do tema antigo ele vai adicionar na class do body p tema novo e esse tema vai ser armazenado no nosso localstorage === esse localstorage server para guardar o valor do contexto para mesmo se  vc atualizar a pagina ele percamanece o mesmo contexto
 
   
 
@@ -38,8 +38,8 @@ localStorage.setItem("tema" , tema)
         </Tema.Provider>
     )
 
-    //essa funcitiob vai retornar um ela mesmo so que com o .Proiveder esse 
-    //componente vai ter o seu value de acordo com o tema e vai alterar junto o value dos temas de seus filhos por isso descontruimos a props para children
+    //nesse return temo esse provider ele vai dar o aacesso ao tal pagina acessar nosso contexto ou seja tudo os componente filhos do provier vai ter acesso ao contexto tema e setTema ai vc usa o use context para pegar ele para vc 
+    //
 
 }
 
