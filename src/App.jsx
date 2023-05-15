@@ -28,10 +28,10 @@ const {tema,setTema} = useTema()
     <div>
       <div className='flex itens-center justify-between '>
       <div>
-      <p className='flex items-center gap-3 p-3  dark:text-white'><ImArrowLeft2 className='text-2xl hover:cursor-pointer dark:text-white'/> voltar</p>
+      <p className='flex items-center gap-3 p-7  dark:text-white'><ImArrowLeft2 className='text-2xl hover:cursor-pointer dark:text-white'/> voltar</p>
       </div>
       <div>
-        <p className='p-3'>
+        <p className='p-7'>
           
           {tema === "light" ? <WiMoonWaningCrescent3 className='text-3xl hover:cursor-pointer' onClick={()=>{setTema("dark")}} /> : <WiDaySunny className='text-3xl hover:cursor-pointer text-white'
           
@@ -41,7 +41,7 @@ const {tema,setTema} = useTema()
           </p>
       </div>
       </div>
-    <div className="flex flex-col gap-10 justify-center align items-center  h-screen w-screen" >
+    <div className="flex flex-col gap-10 justify-center align items-center  ola" >
 
 
      <h1 className='text-zinc-950 dark:text-white'>Login</h1> 
