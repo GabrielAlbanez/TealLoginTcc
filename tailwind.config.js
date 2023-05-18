@@ -5,7 +5,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}","./public/index.html"
   ],
   theme: {
-    extend: {},
+    extend: {
+     
+      colors : {
+
+        lavanda : "#C2C5F4",
+
+      },
+
+    },
   },
   plugins: [],  
 }
